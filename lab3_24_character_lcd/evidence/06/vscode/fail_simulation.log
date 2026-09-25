@@ -1,0 +1,3 @@
+VCD info: dumpfile wave.vcd opened for output.
+FATAL: C:\Users\user\Desktop\LAB3_VSCode\lab3_24_character_lcd\sim\tb_character_lcd.sv:55: 
+       Time: 7730000  Scope: tb_character_lcd
