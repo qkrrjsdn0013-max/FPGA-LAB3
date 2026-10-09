@@ -6,7 +6,7 @@ wire [3:0] stepmotor;
 integer checks=0;
 
 always #10 clk_50mhz=~clk_50mhz;
-lab3_stepper #(.CLK_HZ(8),.STEP_HZ(1)) dut(.clk_50mhz(clk_50mhz),.rst_p(rst_p),.enable(enable),.direction(direction),.stepmotor(stepmotor));
+lab3_stepper #(.CLK_HZ(8),.STEP_HZ(2)) dut(.clk_50mhz(clk_50mhz),.rst_p(rst_p),.enable(enable),.direction(direction),.stepmotor(stepmotor));
 
 task check_value(input [3:0]v);
 begin
